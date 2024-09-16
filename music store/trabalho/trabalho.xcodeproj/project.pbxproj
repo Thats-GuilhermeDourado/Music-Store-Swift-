@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CC47DF22C91CFB800D6258F /* trabalhoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47DF12C91CFB800D6258F /* trabalhoApp.swift */; };
+		2CC47DF42C91CFB800D6258F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47DF32C91CFB800D6258F /* ContentView.swift */; };
+		2CC47DF62C91CFBA00D6258F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC47DF52C91CFBA00D6258F /* Assets.xcassets */; };
+		2CC47DF92C91CFBA00D6258F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC47DF82C91CFBA00D6258F /* Preview Assets.xcassets */; };
+		2CC47E032C91CFBA00D6258F /* trabalhoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E022C91CFBA00D6258F /* trabalhoTests.swift */; };
+		2CC47E0D2C91CFBA00D6258F /* trabalhoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E0C2C91CFBA00D6258F /* trabalhoUITests.swift */; };
+		2CC47E0F2C91CFBA00D6258F /* trabalhoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E0E2C91CFBA00D6258F /* trabalhoUITestsLaunchTests.swift */; };
+		2CC47E1C2C91D02800D6258F /* OnBoardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E1B2C91D02800D6258F /* OnBoardingScreenView.swift */; };
+		2CC47E1F2C91D05E00D6258F /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E1E2C91D05E00D6258F /* ImageData.swift */; };
+		2CC47E212C91D06A00D6258F /* NearYouData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E202C91D06A00D6258F /* NearYouData.swift */; };
+		2CC47E242C91D0A700D6258F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E232C91D0A700D6258F /* HomeScreen.swift */; };
+		2CC47E262C91D0D300D6258F /* MusicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E252C91D0D300D6258F /* MusicCardView.swift */; };
+		2CC47E282C91D0E100D6258F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E272C91D0E100D6258F /* DetailsView.swift */; };
+		2CC47E2A2C91D0F400D6258F /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E292C91D0F400D6258F /* TopSellingView.swift */; };
+		2CC47E2C2C91D10900D6258F /* NearYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E2B2C91D10900D6258F /* NearYouView.swift */; };
+		2CC47E2E2C91D9AD00D6258F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E2D2C91D9AD00D6258F /* CardView.swift */; };
+		2CC47E322C91DBE600D6258F /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E312C91DBE600D6258F /* CartModel.swift */; };
+		2CC47E352C92047800D6258F /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E342C92047800D6258F /* ArtistModel.swift */; };
+		2CC47E372C9204DD00D6258F /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC47E362C9204DD00D6258F /* ArtistView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CC47DFF2C91CFBA00D6258F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC47DE62C91CFB800D6258F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC47DED2C91CFB800D6258F;
+			remoteInfo = trabalho;
+		};
+		2CC47E092C91CFBA00D6258F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC47DE62C91CFB800D6258F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC47DED2C91CFB800D6258F;
+			remoteInfo = trabalho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CC47DEE2C91CFB800D6258F /* trabalho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trabalho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC47DF12C91CFB800D6258F /* trabalhoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trabalhoApp.swift; sourceTree = "<group>"; };
+		2CC47DF32C91CFB800D6258F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CC47DF52C91CFBA00D6258F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CC47DF82C91CFBA00D6258F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CC47DFE2C91CFBA00D6258F /* trabalhoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trabalhoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC47E022C91CFBA00D6258F /* trabalhoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trabalhoTests.swift; sourceTree = "<group>"; };
+		2CC47E082C91CFBA00D6258F /* trabalhoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trabalhoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC47E0C2C91CFBA00D6258F /* trabalhoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trabalhoUITests.swift; sourceTree = "<group>"; };
+		2CC47E0E2C91CFBA00D6258F /* trabalhoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trabalhoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CC47E1B2C91D02800D6258F /* OnBoardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreenView.swift; sourceTree = "<group>"; };
+		2CC47E1E2C91D05E00D6258F /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		2CC47E202C91D06A00D6258F /* NearYouData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouData.swift; sourceTree = "<group>"; };
+		2CC47E232C91D0A700D6258F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		2CC47E252C91D0D300D6258F /* MusicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCardView.swift; sourceTree = "<group>"; };
+		2CC47E272C91D0E100D6258F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		2CC47E292C91D0F400D6258F /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
+		2CC47E2B2C91D10900D6258F /* NearYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouView.swift; sourceTree = "<group>"; };
+		2CC47E2D2C91D9AD00D6258F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2CC47E312C91DBE600D6258F /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		2CC47E342C92047800D6258F /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		2CC47E362C9204DD00D6258F /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CC47DEB2C91CFB800D6258F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC47DFB2C91CFBA00D6258F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC47E052C91CFBA00D6258F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CC47DE52C91CFB800D6258F = {
+			isa = PBXGroup;
+			children = (
+				2CC47E332C92045E00D6258F /* New Group */,
+				2CC47DF02C91CFB800D6258F /* trabalho */,
+				2CC47E012C91CFBA00D6258F /* trabalhoTests */,
+				2CC47E0B2C91CFBA00D6258F /* trabalhoUITests */,
+				2CC47DEF2C91CFB800D6258F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CC47DEF2C91CFB800D6258F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC47DEE2C91CFB800D6258F /* trabalho.app */,
+				2CC47DFE2C91CFBA00D6258F /* trabalhoTests.xctest */,
+				2CC47E082C91CFBA00D6258F /* trabalhoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC47DF02C91CFB800D6258F /* trabalho */ = {
+			isa = PBXGroup;
+			children = (
+				2CC47DF12C91CFB800D6258F /* trabalhoApp.swift */,
+				2CC47DF32C91CFB800D6258F /* ContentView.swift */,
+				2CC47E1B2C91D02800D6258F /* OnBoardingScreenView.swift */,
+				2CC47DF52C91CFBA00D6258F /* Assets.xcassets */,
+				2CC47E1D2C91D03B00D6258F /* model */,
+				2CC47DF72C91CFBA00D6258F /* Preview Content */,
+			);
+			path = trabalho;
+			sourceTree = "<group>";
+		};
+		2CC47DF72C91CFBA00D6258F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CC47DF82C91CFBA00D6258F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CC47E012C91CFBA00D6258F /* trabalhoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC47E022C91CFBA00D6258F /* trabalhoTests.swift */,
+			);
+			path = trabalhoTests;
+			sourceTree = "<group>";
+		};
+		2CC47E0B2C91CFBA00D6258F /* trabalhoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC47E0C2C91CFBA00D6258F /* trabalhoUITests.swift */,
+				2CC47E0E2C91CFBA00D6258F /* trabalhoUITestsLaunchTests.swift */,
+			);
+			path = trabalhoUITests;
+			sourceTree = "<group>";
+		};
+		2CC47E1D2C91D03B00D6258F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2CC47E1E2C91D05E00D6258F /* ImageData.swift */,
+				2CC47E202C91D06A00D6258F /* NearYouData.swift */,
+				2CC47E342C92047800D6258F /* ArtistModel.swift */,
+				2CC47E222C91D07F00D6258F /* HomeScreenViews */,
+				2CC47E312C91DBE600D6258F /* CartModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2CC47E222C91D07F00D6258F /* HomeScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				2CC47E232C91D0A700D6258F /* HomeScreen.swift */,
+				2CC47E252C91D0D300D6258F /* MusicCardView.swift */,
+				2CC47E272C91D0E100D6258F /* DetailsView.swift */,
+				2CC47E292C91D0F400D6258F /* TopSellingView.swift */,
+				2CC47E2B2C91D10900D6258F /* NearYouView.swift */,
+				2CC47E2D2C91D9AD00D6258F /* CardView.swift */,
+				2CC47E362C9204DD00D6258F /* ArtistView.swift */,
+			);
+			path = HomeScreenViews;
+			sourceTree = "<group>";
+		};
+		2CC47E332C92045E00D6258F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CC47DED2C91CFB800D6258F /* trabalho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC47E122C91CFBA00D6258F /* Build configuration list for PBXNativeTarget "trabalho" */;
+			buildPhases = (
+				2CC47DEA2C91CFB800D6258F /* Sources */,
+				2CC47DEB2C91CFB800D6258F /* Frameworks */,
+				2CC47DEC2C91CFB800D6258F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trabalho;
+			productName = trabalho;
+			productReference = 2CC47DEE2C91CFB800D6258F /* trabalho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CC47DFD2C91CFBA00D6258F /* trabalhoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC47E152C91CFBA00D6258F /* Build configuration list for PBXNativeTarget "trabalhoTests" */;
+			buildPhases = (
+				2CC47DFA2C91CFBA00D6258F /* Sources */,
+				2CC47DFB2C91CFBA00D6258F /* Frameworks */,
+				2CC47DFC2C91CFBA00D6258F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC47E002C91CFBA00D6258F /* PBXTargetDependency */,
+			);
+			name = trabalhoTests;
+			productName = trabalhoTests;
+			productReference = 2CC47DFE2C91CFBA00D6258F /* trabalhoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CC47E072C91CFBA00D6258F /* trabalhoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC47E182C91CFBA00D6258F /* Build configuration list for PBXNativeTarget "trabalhoUITests" */;
+			buildPhases = (
+				2CC47E042C91CFBA00D6258F /* Sources */,
+				2CC47E052C91CFBA00D6258F /* Frameworks */,
+				2CC47E062C91CFBA00D6258F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC47E0A2C91CFBA00D6258F /* PBXTargetDependency */,
+			);
+			name = trabalhoUITests;
+			productName = trabalhoUITests;
+			productReference = 2CC47E082C91CFBA00D6258F /* trabalhoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CC47DE62C91CFB800D6258F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2CC47DED2C91CFB800D6258F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2CC47DFD2C91CFBA00D6258F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2CC47DED2C91CFB800D6258F;
+					};
+					2CC47E072C91CFBA00D6258F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2CC47DED2C91CFB800D6258F;
+					};
+				};
+			};
+			buildConfigurationList = 2CC47DE92C91CFB800D6258F /* Build configuration list for PBXProject "trabalho" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CC47DE52C91CFB800D6258F;
+			productRefGroup = 2CC47DEF2C91CFB800D6258F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC47DED2C91CFB800D6258F /* trabalho */,
+				2CC47DFD2C91CFBA00D6258F /* trabalhoTests */,
+				2CC47E072C91CFBA00D6258F /* trabalhoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CC47DEC2C91CFB800D6258F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC47DF92C91CFBA00D6258F /* Preview Assets.xcassets in Resources */,
+				2CC47DF62C91CFBA00D6258F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC47DFC2C91CFBA00D6258F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC47E062C91CFBA00D6258F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC47DEA2C91CFB800D6258F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC47E1C2C91D02800D6258F /* OnBoardingScreenView.swift in Sources */,
+				2CC47DF42C91CFB800D6258F /* ContentView.swift in Sources */,
+				2CC47E2A2C91D0F400D6258F /* TopSellingView.swift in Sources */,
+				2CC47E262C91D0D300D6258F /* MusicCardView.swift in Sources */,
+				2CC47E242C91D0A700D6258F /* HomeScreen.swift in Sources */,
+				2CC47E212C91D06A00D6258F /* NearYouData.swift in Sources */,
+				2CC47E2C2C91D10900D6258F /* NearYouView.swift in Sources */,
+				2CC47E352C92047800D6258F /* ArtistModel.swift in Sources */,
+				2CC47E282C91D0E100D6258F /* DetailsView.swift in Sources */,
+				2CC47E372C9204DD00D6258F /* ArtistView.swift in Sources */,
+				2CC47DF22C91CFB800D6258F /* trabalhoApp.swift in Sources */,
+				2CC47E322C91DBE600D6258F /* CartModel.swift in Sources */,
+				2CC47E2E2C91D9AD00D6258F /* CardView.swift in Sources */,
+				2CC47E1F2C91D05E00D6258F /* ImageData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC47DFA2C91CFBA00D6258F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC47E032C91CFBA00D6258F /* trabalhoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC47E042C91CFBA00D6258F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC47E0F2C91CFBA00D6258F /* trabalhoUITestsLaunchTests.swift in Sources */,
+				2CC47E0D2C91CFBA00D6258F /* trabalhoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CC47E002C91CFBA00D6258F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC47DED2C91CFB800D6258F /* trabalho */;
+			targetProxy = 2CC47DFF2C91CFBA00D6258F /* PBXContainerItemProxy */;
+		};
+		2CC47E0A2C91CFBA00D6258F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC47DED2C91CFB800D6258F /* trabalho */;
+			targetProxy = 2CC47E092C91CFBA00D6258F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CC47E102C91CFBA00D6258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CC47E112C91CFBA00D6258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CC47E132C91CFBA00D6258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trabalho/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = guisilva.trabalho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CC47E142C91CFBA00D6258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trabalho/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = guisilva.trabalho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CC47E162C91CFBA00D6258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = guisilva.trabalhoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trabalho.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trabalho";
+			};
+			name = Debug;
+		};
+		2CC47E172C91CFBA00D6258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = guisilva.trabalhoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trabalho.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trabalho";
+			};
+			name = Release;
+		};
+		2CC47E192C91CFBA00D6258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = guisilva.trabalhoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trabalho;
+			};
+			name = Debug;
+		};
+		2CC47E1A2C91CFBA00D6258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = guisilva.trabalhoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trabalho;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CC47DE92C91CFB800D6258F /* Build configuration list for PBXProject "trabalho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC47E102C91CFBA00D6258F /* Debug */,
+				2CC47E112C91CFBA00D6258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC47E122C91CFBA00D6258F /* Build configuration list for PBXNativeTarget "trabalho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC47E132C91CFBA00D6258F /* Debug */,
+				2CC47E142C91CFBA00D6258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC47E152C91CFBA00D6258F /* Build configuration list for PBXNativeTarget "trabalhoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC47E162C91CFBA00D6258F /* Debug */,
+				2CC47E172C91CFBA00D6258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC47E182C91CFBA00D6258F /* Build configuration list for PBXNativeTarget "trabalhoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC47E192C91CFBA00D6258F /* Debug */,
+				2CC47E1A2C91CFBA00D6258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CC47DE62C91CFB800D6258F /* Project object */;
+}
